@@ -1,0 +1,183 @@
+.main_info
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.main_info__content
+{
+  width: 749px;
+  padding-left: 35px;
+}
+
+.content_text
+{
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5e5e5e;
+  padding-top: 20px;
+}
+
+.content_list
+{
+  margin-left: -40px;
+  &--double
+  {
+    margin-left: -50px;
+  }
+}
+
+
+.content_item
+{
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5e5e5e;
+  padding-top: 20px;
+  list-style-type: none;
+  &--double
+  {
+    display: inline-flex;
+  }
+
+}
+
+.content_item span
+{
+  font-weight: bold;
+}
+
+
+.content_item .link a
+{
+  text-decoration: none;
+  color: #02a6f2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content_number
+{
+  padding-right: 10px;
+  &--double
+  {
+    margin-left: 40px;
+    font-weight: normal;
+  }
+}
+
+.content_text span
+{
+  font-weight: bold;
+}
+
+
+.content_text .link a
+{
+  text-decoration: none;
+  color: #02a6f2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content_bold
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content_text--bold
+{
+  font-weight: bold;
+}
+
+hr {
+    border: none;
+    background-color: #362f2f;
+    color: #362f2f;
+    height: 2px;
+    width: 199px;
+    text-align: center;
+   }
+
+  .hr_top
+  {
+    position: relative;
+    top: 20px;
+  }
+
+  .hr_bottom
+  {
+    margin-bottom: 40px;
+  }
+
+.content_inset
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content_info
+{
+  width: 328px;
+}
+
+.content_inset img
+{
+  width: 355px;
+  height: 156px;
+  padding-top: 35px;
+}
+
+.main_info__sidebar
+{
+  width: 205px;
+}
+
+.sidebar__block
+{
+  padding-top: 30px;
+}
+
+.sidebar__title
+{
+  border-bottom: solid 2px #362f2f;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+.sidebar__text
+{
+  font-size: 16px;
+  line-height: 20px;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.content_button
+{
+  width: 577px;
+  height: 71px;
+  border: 2px solid #000;
+  font-size: 26px;
+  line-height: 40px;
+  color: #000;
+  opacity: 0.8;
+  background-color: inherit;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}

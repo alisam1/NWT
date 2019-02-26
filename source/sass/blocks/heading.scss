@@ -1,0 +1,28 @@
+.heading
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.heading__img
+{
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.heading__title
+{
+    width: 880px;
+    font-size: 46px;
+    line-height: 60px;
+    color: #000;
+    opacity: 0.8;
+    margin-left: -100px;
+}
+
+.heading__title span
+{
+  display: block;
+}
