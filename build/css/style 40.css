@@ -607,5 +607,13 @@ hr {
 .content span {
   display: block; }
 
+.comments_title {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  display: block;
+  font-size: 24px;
+  line-height: 32px;
+  color: #5e5e5e; }
+
 body {
   background-color: #fff; }
