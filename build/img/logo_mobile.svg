@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="50" viewBox="0 0 134 50">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#363636" font-family="Helvetica" font-size="13.72" opacity=".974" transform="translate(31.1 16.4)">
+            <tspan x="2.812" y="14">The Commercial </tspan> <tspan x="28.725" y="31.64">Finance</tspan>
+        </text>
+        <path stroke="#363636" stroke-width="1.617" d="M54.2 35.378A23.952 23.952 0 0 1 32.75 48.6C19.53 48.6 8.81 37.944 8.81 24.8S19.53 1 32.75 1c9.4 0 17.532 5.386 21.45 13.222h-7.81A23.952 23.952 0 0 0 24.94 1C11.718 1 1 11.656 1 24.8s10.718 23.8 23.94 23.8c9.4 0 17.532-5.386 21.45-13.222h7.81z"/>
+    </g>
+</svg>
