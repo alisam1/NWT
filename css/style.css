@@ -607,7 +607,8 @@ template {
 .form {
   width: 100%;
   height: 262px;
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  margin-top: 47px; }
 
 .form_view {
   width: 320px;
@@ -616,6 +617,21 @@ template {
   position: relative;
   top: 44px;
   margin-left: 300px; }
+
+.form_view form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.form_view input {
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 18px;
+  padding-left: 40px; }
 
 .bottom_button .big-blue-link {
   width: 577px;
