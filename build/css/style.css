@@ -458,7 +458,7 @@ template {
     display: block;
     width: 135px;
     height: 35px;
-    margin-left: -265px;
+    margin-left: 15px;
     margin-top: -25px; }
   .mobile-menu {
     display: -webkit-box;
@@ -471,9 +471,9 @@ template {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0;
     top: 0;
     background-color: #fff;
