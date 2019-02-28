@@ -12,47 +12,26 @@
   padding-left: 35px;
 }
 
-.content_text
+.main_content
+{
+  margin-bottom: 60px;
+}
+
+.main_content p
 {
   font-family: "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #5e5e5e;
-  padding-top: 20px;
+  padding-top: 18px;
 }
 
-.content_list
+.main_content p:nth-child(1)
 {
-  margin-left: -40px;
-  &--double
-  {
-    margin-left: -50px;
-  }
+  padding-top: 0px;
 }
 
-
-.content_item
-{
-  font-family: "Helvetica", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  color: #5e5e5e;
-  padding-top: 20px;
-  list-style-type: none;
-  &--double
-  {
-    display: inline-flex;
-  }
-
-}
-
-.content_item span
-{
-  font-weight: bold;
-}
-
-
-.content_item .link a
+.main_content p a
 {
   text-decoration: none;
   color: #02a6f2;
@@ -60,80 +39,46 @@
   cursor: pointer;
 }
 
-.content_number
+.inset
 {
-  padding-right: 10px;
-  &--double
-  {
-    margin-left: 40px;
-    font-weight: normal;
-  }
+  width: 395px;
+  height: 156px;
+  float: right;
 }
 
-.content_text span
+.main_content img
 {
-  font-weight: bold;
-}
-
-
-.content_text .link a
-{
-  text-decoration: none;
-  color: #02a6f2;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.content_bold
-{
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.content_text--bold
+.main_content ol li
 {
-  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5e5e5e;
+  padding-right: 10px;
 }
 
-hr {
-    border: none;
-    background-color: #362f2f;
-    color: #362f2f;
-    height: 2px;
-    width: 199px;
-    text-align: center;
-   }
-
-  .hr_top
-  {
-    position: relative;
-    top: 20px;
-  }
-
-  .hr_bottom
-  {
-    margin-bottom: 40px;
-  }
-
-.content_inset
+.big-blue-link
 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  width: 577px;
+  height: 71px;
+  border: solid 3px #404040;
+  font-family: "Helvetica", sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #5e5e5e;
+  position: relative;
+  left: 200px;
 }
-
-.content_info
-{
-  width: 328px;
-}
-
-.content_inset img
-{
-  width: 355px;
-  height: 156px;
-  padding-top: 35px;
-}
-
 .main_info__sidebar
 {
   width: 205px;

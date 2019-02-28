@@ -1,3 +1,10 @@
+.comments
+{
+  width: 749px;
+  position: relative;
+  right: 160px;
+}
+
 .comments_title
 {
     font-family: "Helvetica", sans-serif;
@@ -5,4 +12,36 @@
     font-size: 30px;
     line-height: 20px;
     color: #5e5e5e;
+    padding-top: 128px;
+
+}
+
+.comments_block
+{
+  padding-top: 20px;
+}
+
+.comments_name
+{
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #02a6f2;
+  font-weight: bold;
+}
+
+.comments_time
+{
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #5e5e5e;
+}
+
+.comments_description
+{
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5e5e5e;
 }
