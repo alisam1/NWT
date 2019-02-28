@@ -94,5 +94,31 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+  .footer_top
+  {
+    display: none;
+  }
+
+
+  .footer_bottom
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer_info
+  {
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    padding-left: 0px;
+    &--year
+    {
+      padding-left: 0px;
+    }
+  }
+
 
 }

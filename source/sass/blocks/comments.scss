@@ -60,5 +60,19 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+  .comments {
+    width: 280px;
+    position: relative;
+    right: 0px;
+}
+
+.comments_block {
+    padding-top: 10px;
+}
+
+.comments_title
+{
+  padding-top: 60px;
+}
 
 }
