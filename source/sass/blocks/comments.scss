@@ -12,22 +12,24 @@
     font-size: 30px;
     line-height: 20px;
     color: #5e5e5e;
-    padding-top: 128px;
+    padding-top: 90px;
 
 }
 
 .comments_block
 {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-.comments_name
+.comments_name a
 {
   font-family: "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #02a6f2;
   font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .comments_time
@@ -36,6 +38,7 @@
   font-size: 12px;
   line-height: 20px;
   color: #5e5e5e;
+  margin-top: -10px;
 }
 
 .comments_description
@@ -44,6 +47,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #5e5e5e;
+  margin-top: -5px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -61,7 +65,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
   .comments {
-    width: 280px;
+    width: 80%;
     position: relative;
     right: 0px;
 }

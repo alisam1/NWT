@@ -110,6 +110,17 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
+  .header_top__title
+  {
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+  }
+
+
+  .header_top__title span
+  {
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+  }
+
 
   .header_bottom
   {

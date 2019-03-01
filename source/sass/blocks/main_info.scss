@@ -26,6 +26,18 @@
   padding-top: 18px;
 }
 
+.main_content p strong
+{
+  font-family: "Helvetica-Bold", sans-serif;
+  color: #5e5e5e;
+}
+
+.main_content p b
+{
+  font-family: "Helvetica-Bold", sans-serif;
+  color: #5e5e5e;
+}
+
 .main_content p:nth-child(1)
 {
   padding-top: 0px;
@@ -41,9 +53,32 @@
 
 .inset
 {
-  width: 395px;
-  height: 156px;
-  float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.inset::before
+{
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-image: url("../img/border.png");
+  margin-left: 276px;
+  margin-top: -20px;
+}
+
+.inset::after
+{
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-image: url("../img/border.png");
+  margin-left: 276px;
+  margin-top: 20px;
 }
 
 .main_content img
@@ -148,6 +183,53 @@
     margin: 0 auto;
 }
 
+.inset
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.inset::before
+{
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-image: url("../img/border.png");
+  margin-left: 75px;
+  margin-top: -20px;
+}
+
+.inset::after
+{
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-image: url("../img/border.png");
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.big-blue-link {
+    width: 577px;
+    height: 71px;
+    border: solid 3px #404040;
+    font-family: "Helvetica", sans-serif;
+    font-size: 25px;
+    line-height: 38px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #5e5e5e;
+    position: relative;
+    left: 0;
+  }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -165,16 +247,38 @@
 
   .main_info__content
   {
-    width: 280px;
+    width: 80%;
     padding-left: 0px;
   }
+  .inset
+  {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
 
-  .inset {
-    width: 280px;
-    height: 100px;
-    float: right;
-}
+  .inset::before
+  {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-image: url("../img/border.png");
+    margin-left: 30px;
+    margin-top: -20px;
+  }
 
+  .inset::after
+  {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-image: url("../img/border.png");
+    margin-left: 30px;
+    margin-top: 20px;
+  }
   .big-blue-link
   {
     width: 280px;
