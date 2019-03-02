@@ -65,24 +65,29 @@
 
 }
 
+.bottom_button
+{
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
 
   .bottom_button .big-blue-link
   {
     width: 577px;
-    height: 71px;
     border: solid 3px #404040;
     font-family: "Helvetica", sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 38px;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #5e5e5e;
-    position: relative;
-    top: 52px;
-  left: 300px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -103,14 +108,11 @@
       position: relative;
       top: 20px;
       margin: 0 auto;
-      margin-left: 0;
       }
 
 
     .bottom_button .big-blue-link
    {
-        width: 577px;
-        height: 71px;
         border: solid 3px #404040;
         font-family: "Helvetica", sans-serif;
         font-size: 25px;
@@ -121,8 +123,10 @@
         padding-left: 20px;
         padding-right: 20px;
         color: #5e5e5e;
-        position: relative;
-        left: 200px;
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
       }
 
 
@@ -140,7 +144,7 @@
 
     .form_view
     {
-      width: 320px;
+      width: 300px;
       height: 177px;
       background-color: #fff;
       position: relative;
@@ -150,21 +154,21 @@
 
 
     .bottom_button .big-blue-link {
-    width: 280px;
-    height: 71px;
-    border: solid 3px #404040;
-    font-family: "Helvetica", sans-serif;
-    font-size: 14px;
-    line-height: 28px;
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    color: #5e5e5e;
-    position: relative;
-    top: 52px;
-    left: 50px;
+      width: 280px;
+      border: solid 3px #404040;
+      font-family: "Helvetica", sans-serif;
+      font-size: 26px;
+      line-height: 32px;
+      text-decoration: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #5e5e5e;
+      margin: 0 auto;
+      display: block;
+      box-sizing: border-box;
+      text-align: center;
 }
 
 

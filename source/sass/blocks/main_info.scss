@@ -29,12 +29,7 @@
 .main_content p strong
 {
   font-family: "Helvetica-Bold", sans-serif;
-  color: #5e5e5e;
-}
-
-.main_content p b
-{
-  font-family: "Helvetica-Bold", sans-serif;
+  font-weight: 600;
   color: #5e5e5e;
 }
 
@@ -47,7 +42,7 @@
 {
   text-decoration: none;
   color: #02a6f2;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -100,19 +95,20 @@
 .big-blue-link
 {
   width: 577px;
-  height: 71px;
   border: solid 3px #404040;
   font-family: "Helvetica", sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 38px;
   text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #5e5e5e;
-  position: relative;
-  left: 200px;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
 }
 .main_info__sidebar
 {
@@ -174,13 +170,13 @@
 
   .main_info__content
   {
-    width: 400px;
-    padding-left: 35px;
+    width: 80%;
+    padding-left: 0px;
+    margin: 0 auto;
   }
 
   .main_info__sidebar {
-    width: 205px;
-    margin: 0 auto;
+    display: none;
 }
 
 .inset
@@ -214,20 +210,20 @@
 }
 
 .big-blue-link {
-    width: 577px;
-    height: 71px;
-    border: solid 3px #404040;
-    font-family: "Helvetica", sans-serif;
-    font-size: 25px;
-    line-height: 38px;
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #5e5e5e;
-    position: relative;
-    left: 0;
+  border: solid 3px #404040;
+  font-family: "Helvetica", sans-serif;
+  font-size: 25px;
+  line-height: 38px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #5e5e5e;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
   }
 
 }
@@ -281,20 +277,22 @@
   }
   .big-blue-link
   {
+
     width: 280px;
-    height: 71px;
     border: solid 3px #404040;
     font-family: "Helvetica", sans-serif;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 26px;
+    line-height: 32px;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #5e5e5e;
-    position: relative;
-    left: 0px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
   }
 
 
